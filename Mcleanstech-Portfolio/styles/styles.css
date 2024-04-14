@@ -305,8 +305,44 @@ h2 {
 
 footer {
     background: #303841;
-    height: 20vh;
+    height: 30vh;
     border-top: 2px solid #ff0000;
+
+}
+
+.footer-flex-item {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3rem 3rem 0;
+}
+
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    list-style: none;
+
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #F1FAEE;
+    font-size: 1.2rem;
+}
+
+.footer-link:hover {
+    border-bottom: 2px solid #ff7e5f;
+}
+.footer-link:visited {
+    color: #A8DADC;
+}
+
+.coppy-right {
+    color: #F1FAEE;
+    font-size: 1rem;
 }
 
 
