@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: "Roboto", sans-serif; 
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    background-color: lightcoral;
+    overflow: hidden;  
+
+}
+
+/* REUSEBLE PROPERTY FOR BUTTON AND LINKS*/
+
+.price-button:hover,
+.submit:hover,
+.nav-link:hover {
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: #ff8c00;
+    transition-delay: 0.1s;
+    transition-timing-function: 2s;
+    border-radius: 5px;
+}
+
+.title, .nav-link, .feature-title,.pricing-title, .price,.price-button, .submit {
+    color: #000;
+    font-weight: 500;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none; 
+    flex-direction: row;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font: 1.7rem;
+    display: block;
+    padding: 0 1.5rem;
+    margin-left: 3rem;
+    line-height: 2.5;
+}
+
+
+.call-to-action {
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 5rem; 
+}
+
+label {
+    display: block;
+    margin-top: 10px;   
+}
+
+.title {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    padding-top: 2rem;
+}
+
+.email {
+    width: 300px;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #000000c4;
+}
+
+.feature-section {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 50px auto;
+    width: 80vw;
+}
+
+.icon {
+    width: 25vh;
+    margin: 0 30px;
+}
+
+.feature-dice {
+    width: 80vw;
+}
+
+.fa-solid {
+    color: #ff8c00;
+    font-size: 3.5rem;
+    align-items: center;
+    
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #000;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.Vidoe {
+    width: 80vh;
+    margin: 5rem auto;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.Pricing-card {
+    width: 300px;
+    align-items: center;
+    border: 1px solid #000;
+    margin: 1rem;
+    text-align: center;
+}
+
+.pricing-title {
+    font-size: 1rem;
+    line-height: 1.5;
+    background: #dddddd;
+    padding: 10px;
+}
+
+.price {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.price-button, .submit {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    background-color: #f1c40f;
+    border-radius: 4px;
+    border: none;
+}
+
+.Pricing-card p {
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 3rem;
+    background-color: #dddddd;
+    padding: 3rem; 
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.footer-nav-link {
+    color: #000;
+    margin: 0 1rem ;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-p {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    color: #000000c5;
+  
+}
+
+.footer-nav-link, .footer-p {
+    align-items: center;
+    text-align: center;
+    line-height: 1.7;
+}
+

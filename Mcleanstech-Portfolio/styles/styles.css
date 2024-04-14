@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #1D3557;
+    font-family: 'sans-serif', Helvetica;
+    scroll-behavior: smooth;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    background: #A8DADC;
+    padding: 10px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.site-logo { 
+    margin-left: 3rem;
+font-family: "Playfair Display", serif;
+
+}
+
+.logo h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color:  #1D3557;
+    text-shadow: 2px 2px 2px #272b26;
+    font-style: italic;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 3rem; 
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.navlink {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #1D3557;
+    display: block;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+
+}
+.navlink:hover {
+    background-color: #E63946;
+    border-radius: 5px;
+    color: #F1FAEE;
+    cursor: pointer;
+    
+
+}
+
+.container {
+    background-color: rgba(44, 58, 71, 0.904);
+    background-image: url(../images/Project-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#welcome-section {
+    background-color: hsla(214, 76%, 6%, 0.445);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100vh; 
+
+
+}
+
+.welcome-hero {
+    align-items: center;
+    max-width: 550px;
+    margin: 0 auto;
+    
+}
+
+.hero {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 0 10px;
+    line-height: 1.7;
+    font-family: "Playfair Display", serif;
+
+}
+
+.hero-desp {
+    font-size: 0.5rem;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+.call-to-action {
+    padding: 10px 25px;
+    margin: 2rem 0.7rem;
+    line-height: 1.5;
+    border: none;
+    border-radius: 4px;
+    color: #303841;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.call-to-action:hover {
+    background: #E63946;
+    color: #F1FAEE;
+}
+
+section {
+    margin-bottom: 3rem 0;
+}
+.project-heading {
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #F1FAEE;
+    line-height: 1.7;
+}
+
+hr {
+    width: 450px;
+    margin: 0 auto;
+    border: 1px solid #F1FAEE;
+    margin: 10px auto 3rem;
+}
+
+#projects {
+    background-image: linear-gradient(to right top, 
+        #5f5bd6, #424992, #354381, #5f78c2, #24355c, #1a3455,
+        #6d8599, #113146, #2b3b2e, #083943, #0f3c40, #b44fa7);
+    padding: 6rem 1px;
+}
+
+.project {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.project-card {
+    width: 400px;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.project-card:hover {
+
+    code {
+        color: #E63946;
+        transition: 0.3s ease-out;
+    }
+}
+
+
+.project-link {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+
+}
+
+
+.project-title {
+    background: #303841;
+    padding: 1rem 0.5rem;
+    color: #F1FAEE;
+    font-size: 1.2rem;
+}
+.project-link img {
+    display: block;
+    object-fit: cover;
+}
+
+code {
+    color: #303841;
+    font-weight: 800;
+}
+
+.btn-section {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    margin: 1rem auto;
+    background: #303841;
+    padding: 10px 20px;
+    border: none;  
+}
+.btn:hover {
+    background: #E63946;
+    cursor: pointer;
+}
+
+.btn:hover i {
+    transform: translateX(3px);
+}
+
+.btn  i {
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #F1FAEE;
+    transition: transform 0.3s ease-out;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #F1FAEE;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.contact-section {
+    height: 70vh;
+    background: #303841;
+    color: #F1FAEE;
+    padding: 5rem 0;
+}
+
+.contact-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-family: "Playfair Display", serif;
+    line-height: 1.7;
+    word-wrap: wrap;
+    word-spacing: 0.5rem;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.contact-heading p {
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+.follow-us {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+
+}
+
+.follow-us li {
+    margin: 3rem 2rem;
+
+}
+
+.socail-icon {
+    color: #F1FAEE;
+    text-decoration: none;
+    line-height: 1.7;
+    font-size: 1.5rem;
+}
+
+
+
+
+footer {
+    background: #303841;
+    height: 20vh;
+    border-top: 2px solid #ff0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Medai query */
+@media screen and (max-width: 600px) {
+
+    #header {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: unset;
+
+}
+
+    .site-logo {
+        text-align: center;
+        align-items: center;
+        margin-left: 0;   
+ }
+
+    .logo {
+        border-bottom:  1px solid black;
+        padding: 1rem 0;
+        font-size: 2rem;
+        color: #1D3557;
+    }
+
+.logo h1 {
+    display: block;
+    width: 100%;
+
+}
+
+#navbar {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+}
+
+#navbar ul {
+    display: block;
+    list-style: none;
+}
+
+.navlink {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-bottom:  1px solid black;
+    font-size: 1.4rem;
+    color: black;
+    font-weight: 400;
+}
+.navlink:hover {
+    background: yellow;
+    color: black;
+}
+
+
+
+}
+
