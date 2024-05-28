@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #635656;
+}
+
+h1 {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 2rem;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  background-color: #303841;
+}
+.pyramid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pyramid-row {
+  display: flex;
+  justify-content: center;
+}
+
+.brick {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 0 5px;
+}
